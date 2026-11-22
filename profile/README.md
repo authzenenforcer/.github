@@ -15,8 +15,8 @@
 
 Your application asks a Policy Decision Point (PDP) such as Keycloak, Cerbos or Topaz whether a
 caller may perform an action on a resource, and enforces the answer. authzen-enforcer is that
-enforcing side: a zero-dependency client for Java 17+ and a Spring Boot starter, fail-closed by
-default.
+enforcing side: a zero-dependency client for Java 17+ and a Spring Boot 4 starter for Spring MVC
+and Spring WebFlux (preview), fail-closed by default.
 
 ```java
 @CheckPermission                     // read on {type: "documents", id: <id>}, asked of the PDP
@@ -33,10 +33,11 @@ authzen:
 | Repository | |
 |---|---|
 | [authzen-enforcer](https://github.com/authzenenforcer/authzen-enforcer) | The SDK: core client, Spring Boot starter, Micrometer and OpenTelemetry modules, [docs](https://github.com/authzenenforcer/authzen-enforcer/tree/main/docs) |
-| [authzen-enforcer-examples](https://github.com/authzenenforcer/authzen-enforcer-examples) | Runnable examples against a containerized Keycloak PDP: plain Java and Spring Boot |
+| [authzen-enforcer-examples](https://github.com/authzenenforcer/authzen-enforcer-examples) | Runnable examples against a containerized Keycloak PDP: plain Java, Spring MVC and Spring WebFlux, with metrics through Micrometer |
 
 **Get involved:** ask in [Discussions](https://github.com/authzenenforcer/authzen-enforcer/discussions),
 pick a [good first issue](https://github.com/search?q=org%3Aauthzenenforcer+label%3A%22good+first+issue%22+is%3Aopen&type=issues),
 or see the [contributing guide](https://github.com/authzenenforcer/authzen-enforcer/blob/main/CONTRIBUTING.md).
+Releases and articles are announced on X as [@authzenenforcer](https://x.com/authzenenforcer).
 
 <sub>An independent project, not affiliated with or endorsed by the OpenID Foundation.</sub>
