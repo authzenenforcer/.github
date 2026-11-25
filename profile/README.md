@@ -5,7 +5,7 @@
 <h3 align="center">authzen-enforcer</h3>
 
 <p align="center">
-  A Policy Enforcement Point for the <a href="https://openid.net/wg/authzen/">OpenID AuthZEN Authorization API</a> in Java.
+  A Policy Enforcement Point for the <a href="https://openid.net/specs/authorization-api-1_0-final.html">OpenID AuthZEN Authorization API 1.0</a> in Java.
 </p>
 
 <p align="center">
@@ -33,11 +33,17 @@ authzen:
 | Repository | |
 |---|---|
 | [authzen-enforcer](https://github.com/authzenenforcer/authzen-enforcer) | The SDK: core client, Spring Boot starter, Micrometer and OpenTelemetry modules, [docs](https://github.com/authzenenforcer/authzen-enforcer/tree/main/docs) |
-| [authzen-enforcer-examples](https://github.com/authzenenforcer/authzen-enforcer-examples) | Runnable examples against a containerized Keycloak PDP: plain Java, Spring MVC and Spring WebFlux, with metrics through Micrometer |
+| [authzen-enforcer-examples](https://github.com/authzenenforcer/authzen-enforcer-examples) | Runnable examples against a containerized Keycloak PDP: plain Java, Spring MVC and Spring WebFlux, with metrics through Micrometer and traces through OpenTelemetry |
 
 **Get involved:** ask in [Discussions](https://github.com/authzenenforcer/authzen-enforcer/discussions),
 pick a [good first issue](https://github.com/search?q=org%3Aauthzenenforcer+label%3A%22good+first+issue%22+is%3Aopen&type=issues),
 or see the [contributing guide](https://github.com/authzenenforcer/authzen-enforcer/blob/main/CONTRIBUTING.md).
-Releases and articles are announced on X as [@authzenenforcer](https://x.com/authzenenforcer).
+
+**Connect**
+
+- Releases and articles: [@authzenenforcer](https://x.com/authzenenforcer) on X
+- Questions and ideas: [Discussions](https://github.com/authzenenforcer/authzen-enforcer/discussions)
+- Anything that does not belong in public: [authzen.enforcer@gmail.com](mailto:authzen.enforcer@gmail.com).
+  Report vulnerabilities [privately on GitHub](https://github.com/authzenenforcer/authzen-enforcer/security/advisories/new) instead.
 
 <sub>An independent project, not affiliated with or endorsed by the OpenID Foundation.</sub>
